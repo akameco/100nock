@@ -6,4 +6,4 @@ with open('./hightemp.txt') as f:
     for line, i in zip(f, range(n)):
         if i > n:
             break
-        print(line)
+        print(line.rstrip())
